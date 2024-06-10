@@ -1,2 +1,2 @@
 #!/bin/bash
-num_directories=$(find $path -type d | wc -l) 
+echo path=$(find $path -type d | wc -l) 
